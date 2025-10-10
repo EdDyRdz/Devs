@@ -12,6 +12,11 @@
   "dependencies": {
     "and": "^0.0.3",
     "bcrypt": "^6.0.0",
+    "build": "babel ./bun/www -d dist",
+    "test": "jest"
+  },
+  "dependencies": {
+    "and": "^0.0.3",
     "build": "^0.1.4",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
@@ -19,6 +24,8 @@
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1",
     "pug": "2.0.0-beta11"
+    "pug": "2.0.0-beta11",
+    "bcrypt": "^6.0.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.28.3",
